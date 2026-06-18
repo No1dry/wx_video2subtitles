@@ -1,0 +1,9 @@
+.idea
+build/bin
+node_modules
+frontend/dist
+.DS_Store
+
+# 转录: 本地下载的语音识别模型(较大，不入库)
+python/models/
+__pycache__/
