@@ -1,0 +1,32 @@
+# ===== 模型（体积大，不入库，见 README 下载说明）=====
+models/
+res-downloader/python/models/
+
+# ===== 示例 / 测试数据（视频、字幕）=====
+wx/
+video/
+test_out/
+test_out_gpu/
+test_integrated/
+
+# ===== 打包产物 / 整合包（放 Release，不入 code）=====
+res-downloader/packaging/build/
+res-downloader/packaging/dist/
+res-downloader/packaging/*.zip
+res-downloader/packaging/*.spec
+res-downloader/build/bin/
+
+# ===== 前端构建产物 / 依赖 =====
+res-downloader/frontend/node_modules/
+res-downloader/frontend/dist/
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+
+# ===== 本地工具 / 编辑器 =====
+.claude/
+.idea/
+.vscode/
+.DS_Store
+*.exe
